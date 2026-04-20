@@ -7,14 +7,13 @@
 </p>
 
 <p align="center">
-  I design <b>production-grade LLM pipelines</b> — RAG systems, autonomous agents, multi-model orchestration<br/>
+  I design <b>production-grade LLM pipelines</b>, RAG systems, autonomous agents, multi-model orchestration<br/>
   and full-stack AI products that run at scale.
 </p>
 
 <p align="center">
   <a href="mailto:dimitri.landes31@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
   <a href="https://unethicalseo.com"><img src="https://img.shields.io/badge/🌐_Portfolio-0A0A0A?style=for-the-badge" /></a>
-  <img src="https://img.shields.io/badge/Azure_AI_Engineer-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white" />
 </p>
 
 ---
@@ -29,18 +28,18 @@
    Pandas      Sentence-T     Weaviate      DeepEval         Monitoring
 ```
 
-I build the full stack — from **data ingestion** and **model training/fine-tuning**, through
+I build the full stack from **data ingestion** and **model training/fine-tuning**, through
 **retrieval pipelines** and **agent orchestration**, down to **deployment, observability and cost tracking**.
 
 ---
 
 ### 🚀 Flagship Project — `UnethicalSEO`
 
-A full-stack AI automation platform I designed and built solo — over **8k+ lines of production code**.
+A full-stack AI automation platform I designed and built solo over **8k+ lines of production code**.
 
 | Module | What it does |
 |---|---|
-| 🤖 **Autonomous Content Agent** | Multi-step pipeline: SERP scraping → competitor content extraction → GPT-5 brief generation → article writing → WordPress REST publishing — orchestrated by Celery, observable end-to-end |
+| 🤖 **Autonomous Content Agent** | Multi-step pipeline: SERP scraping → competitor content extraction → AI brief generation → article writing → WordPress REST publishing — orchestrated by Celery, observable end-to-end |
 | 🧩 **Multi-model Orchestration** | Routes tasks between GPT-5, GPT-4o-mini, Claude, Ideogram, Replicate, BlackForest & Google GenAI — each model picked for cost/quality trade-off with automatic fallbacks |
 | 🌍 **Programmatic Generation Engine** | Static site generation across **11 languages / 26 countries / 13 478 geo entries** — language-aware prompting, hreflang, hard-linked assets, HTML minification (−30% build size) |
 | 🏪 **SaaS Marketplace** | Stripe checkout, async delivery, customer dashboard, transactional emails, R2-backed asset storage |
