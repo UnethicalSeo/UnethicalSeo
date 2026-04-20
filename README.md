@@ -44,18 +44,18 @@ Under the hood, it's a **production-grade AI engineering stack** I designed solo
 
 | Layer | Engineering problem solved |
 |---|---|
-| 📥 **Data Ingestion & Enrichment** | Async scraping pipeline aggregates SERPs, competitor pages, keyword intelligence and structured metadata into a unified context store — deduped, normalized, typed |
-| 🧬 **Embeddings & Semantic Retrieval** | Vector-indexed corpus for keyword clustering, topic discovery, content similarity and duplicate detection — powers contextual grounding before generation |
+| 📥 **Data Ingestion & Enrichment** | Async scraping pipeline aggregates SERPs, competitor pages, keyword intelligence and structured metadata into a unified context store, deduped, normalized, typed |
+| 🧬 **Embeddings & Semantic Retrieval** | Vector-indexed corpus for keyword clustering, topic discovery, content similarity and duplicate detection, powers contextual grounding before generation |
 | 🧠 **Prompt Orchestration** | Layered prompt architecture (system / role / task / few-shot), language-aware templating, chain-of-thought scaffolds, structured output contracts (JSON-schema enforced with Pydantic + retries) |
-| 🔀 **Multi-model Routing** | Task-level model selection across GPT-5, GPT-4o-mini, Claude, Ideogram, Replicate — picked per step for cost / quality / latency, with automatic fallback chains |
-| 🧩 **Agentic Pipeline** | Directed workflow: *research → outline → draft → illustrate → publish* — each node has retry policies, partial-failure recovery and idempotent state |
+| 🔀 **Multi-model Routing** | Task-level model selection across GPT-5, GPT-4o-mini, Claude, Ideogram, Replicate, picked per step for cost / quality / latency, with automatic fallback chains |
+| 🧩 **Agentic Pipeline** | Directed workflow: *research → outline → draft → illustrate → publish*, each node has retry policies, partial-failure recovery and idempotent state |
 | 🌍 **Multilingual Generation** | Locale-aware prompting across 11 languages × 26 regions, automatic translation layer, hreflang graph computed server-side |
 | 📏 **Evaluation & Guardrails** | Automated scoring (relevance, factuality, SEO fitness), output validators, content moderation, regression checks against golden samples |
 | ⚡ **Cost & Latency Optimization** | Token budgeting, response caching, batch processing, async parallelization, rate-limited external API layers |
 | 📊 **Observability** | End-to-end tracing, per-pipeline cost tracking, quality metrics over time, alerting on drift |
-| 🚀 **Deployment** | One-click provisioning: infrastructure, DNS, CDN, SSL, database, publishing — fully automated from a single form submit |
+| 🚀 **Deployment** | One-click provisioning: infrastructure, DNS, CDN, SSL, database, publishing, fully automated from a single form submit |
 
-**Result** — one button → ~30 minutes later a fully-populated, indexed, SEO-optimized site is live on its own domain.
+**Result** — one button → ~2 minutes later a fully-populated, indexed, SEO-optimized site is live on its own domain.
 
 **Stack** — Python · FastAPI · Celery · PostgreSQL · Redis · pgvector · Next.js 15 · TypeScript · OpenAI · Anthropic · LangChain · Cloudflare · Railway · Stripe
 
@@ -63,8 +63,8 @@ Under the hood, it's a **production-grade AI engineering stack** I designed solo
 
 ### 🎓 Certifications
 
-- 🎯 **Microsoft Certified: Azure AI Engineer Associate** — LLM apps, RAG systems, Azure OpenAI, AI Search, ML pipelines
-- 📚 Continuous learning on DeepLearning.AI, Hugging Face, LangChain Academy
+- 🎯 **Microsoft Certified: Azure AI Engineer Associate** — Working on it
+- 📚 Continuous learning on DeepLearning.AI, Hugging Face, LangChain Academy, Datacamp
 
 ---
 
