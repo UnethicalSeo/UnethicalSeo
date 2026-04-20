@@ -178,26 +178,39 @@ Under the hood, it's a **production-grade AI engineering stack** I designed solo
 
 ---
 
-### 💡 Philosophy
+### 💡 Why I do this
 
-> *Manual work doesn't scale. If I have to do it more than twice, it becomes a pipeline.*
+I'm genuinely **obsessed with AI and automation**.
 
-I care about **leverage** — one well-engineered system should do the work of a 10-person team.
-I care about **evaluation** — LLM apps without eval are cargo-culting; DeepEval, RAGAS and custom metrics ship with every pipeline I build.
-I care about **shipping** — production beats perfect. Monitoring, rate limiting, caching and fallbacks from day one.
+Not as a buzzword — as a way of thinking. Every repetitive task I encounter, I see a pipeline.
+Every manual workflow, I see a system waiting to be built. Every idea I have, I can now ship.
+
+**AI didn't replace my work — it unlocked it.**
+
+For years, my ideas sat in notebooks because executing them alone was impossible.
+Today, with the right orchestration, a single person can do what used to take a full team:
+research, design, write, code, translate, publish, monitor, iterate.
+
+That shift is what excites me. AI is the **leverage layer** on human creativity —
+the more I automate the boring parts, the more bandwidth I have for the parts that actually matter:
+**thinking, designing, creating, shipping bold ideas**.
+
+I build systems so my imagination is never bottlenecked by my hands.
 
 ---
 
-### 📫 Let's build
+### 📫 Let's build something ambitious
 
-I'm open to work on:
-- 🧠 LLM-powered automation & agents in production
-- 🔍 RAG systems, vector search, retrieval optimization
-- 🏗️ Large-scale content / data pipelines
-- 🎯 AI product strategy for SaaS & growth
+If you're working on projects where **AI can unlock scale, creativity or new business models** — I'd love to chat.
+
+I'm especially drawn to:
+- 🧠 LLM-powered automation, agents and autonomous workflows
+- 🔍 RAG systems, vector search, retrieval pipelines
+- 🏗️ Data & content pipelines at scale
+- 🎯 AI products that create real leverage — not just features
 
 **📧 dimitri.landes31@gmail.com**
 
 <p align="center">
-  <i>Build the system. Ship the pipeline. Scale the leverage.</i>
+  <i>AI is the leverage. Automation is the multiplier. Creativity is still the point.</i>
 </p>
