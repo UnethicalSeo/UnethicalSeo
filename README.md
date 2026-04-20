@@ -182,7 +182,7 @@ Under the hood, it's a **production-grade AI engineering stack** I designed solo
 
 I'm genuinely **obsessed with AI and automation**.
 
-Not as a buzzword — as a way of thinking. Every repetitive task I encounter, I see a pipeline.
+Not as a buzzword, as a way of thinking. Every repetitive task I encounter, I see a pipeline.
 Every manual workflow, I see a system waiting to be built. Every idea I have, I can now ship.
 
 **AI didn't replace my work — it unlocked it.**
@@ -191,7 +191,7 @@ For years, my ideas sat in notebooks because executing them alone was impossible
 Today, with the right orchestration, a single person can do what used to take a full team:
 research, design, write, code, translate, publish, monitor, iterate.
 
-That shift is what excites me. AI is the **leverage layer** on human creativity —
+That shift is what excites me. AI is the **leverage layer** on human creativity, 
 the more I automate the boring parts, the more bandwidth I have for the parts that actually matter:
 **thinking, designing, creating, shipping bold ideas**.
 
@@ -207,7 +207,7 @@ I'm especially drawn to:
 - 🧠 LLM-powered automation, agents and autonomous workflows
 - 🔍 RAG systems, vector search, retrieval pipelines
 - 🏗️ Data & content pipelines at scale
-- 🎯 AI products that create real leverage — not just features
+- 🎯 AI products that create real leverage, not just features
 
 **📧 dimitri.landes31@gmail.com**
 
