@@ -35,18 +35,29 @@ I build the full stack from **data ingestion** and **model training/fine-tuning*
 
 ### 🚀 Flagship Project — `UnethicalSEO`
 
-A full-stack AI automation platform I designed and built solo over **8k+ lines of production code**.
+> **A system that generates a complete, fully-optimized website in one click.**
+> One input. Hundreds of pages. Zero human touch.
 
-| Module | What it does |
+Under the hood, it's a **production-grade AI engineering stack** I designed solo.
+
+<br/>
+
+| Layer | Engineering problem solved |
 |---|---|
-| 🤖 **Autonomous Content Agent** | Multi-step pipeline: SERP scraping → competitor content extraction → AI brief generation → article writing → WordPress REST publishing — orchestrated by Celery, observable end-to-end |
-| 🧩 **Multi-model Orchestration** | Routes tasks between GPT-5, GPT-4o-mini, Claude, Ideogram, Replicate, BlackForest & Google GenAI — each model picked for cost/quality trade-off with automatic fallbacks |
-| 🌍 **Programmatic Generation Engine** | Static site generation across **11 languages / 26 countries / 13 478 geo entries** — language-aware prompting, hreflang, hard-linked assets, HTML minification (−30% build size) |
-| 🏪 **SaaS Marketplace** | Stripe checkout, async delivery, customer dashboard, transactional emails, R2-backed asset storage |
-| 📊 **Competitor Intelligence** | Custom KVI / KGR / FTS scoring algorithms, CSV batch processing, keyword opportunity discovery |
-| 🔧 **Fleet Monitoring** | 52+ WordPress properties tracked — plugins, GSC traffic, indexation, Haloscan VI — daily Celery-driven refresh |
+| 📥 **Data Ingestion & Enrichment** | Async scraping pipeline aggregates SERPs, competitor pages, keyword intelligence and structured metadata into a unified context store — deduped, normalized, typed |
+| 🧬 **Embeddings & Semantic Retrieval** | Vector-indexed corpus for keyword clustering, topic discovery, content similarity and duplicate detection — powers contextual grounding before generation |
+| 🧠 **Prompt Orchestration** | Layered prompt architecture (system / role / task / few-shot), language-aware templating, chain-of-thought scaffolds, structured output contracts (JSON-schema enforced with Pydantic + retries) |
+| 🔀 **Multi-model Routing** | Task-level model selection across GPT-5, GPT-4o-mini, Claude, Ideogram, Replicate — picked per step for cost / quality / latency, with automatic fallback chains |
+| 🧩 **Agentic Pipeline** | Directed workflow: *research → outline → draft → illustrate → publish* — each node has retry policies, partial-failure recovery and idempotent state |
+| 🌍 **Multilingual Generation** | Locale-aware prompting across 11 languages × 26 regions, automatic translation layer, hreflang graph computed server-side |
+| 📏 **Evaluation & Guardrails** | Automated scoring (relevance, factuality, SEO fitness), output validators, content moderation, regression checks against golden samples |
+| ⚡ **Cost & Latency Optimization** | Token budgeting, response caching, batch processing, async parallelization, rate-limited external API layers |
+| 📊 **Observability** | End-to-end tracing, per-pipeline cost tracking, quality metrics over time, alerting on drift |
+| 🚀 **Deployment** | One-click provisioning: infrastructure, DNS, CDN, SSL, database, publishing — fully automated from a single form submit |
 
-**Stack** — Python · FastAPI · Celery · PostgreSQL · Redis · Next.js 15 · TypeScript · OpenAI · Anthropic · Cloudflare · Railway · Stripe
+**Result** — one button → ~30 minutes later a fully-populated, indexed, SEO-optimized site is live on its own domain.
+
+**Stack** — Python · FastAPI · Celery · PostgreSQL · Redis · pgvector · Next.js 15 · TypeScript · OpenAI · Anthropic · LangChain · Cloudflare · Railway · Stripe
 
 ---
 
@@ -154,16 +165,16 @@ A full-stack AI automation platform I designed and built solo over **8k+ lines o
 
 ---
 
-### 📊 GitHub Stats
+### 🔨 Currently Shipping
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=UnethicalSeo&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="165" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=UnethicalSeo&layout=compact&theme=tokyonight&hide_border=true" height="165" />
-</p>
+- 🧠 **LLM evaluation harness** — custom metrics (relevance, factuality, SEO fitness) with DeepEval + golden sample regression
+- 🌐 **Multilingual generation engine** — extending locale-aware prompting to 15+ languages
+- 🔍 **RAG over competitor intelligence** — vector search on scraped SERP data for contextual grounding
+- 🤖 **Agentic workflows** — LangGraph-based pipelines with partial-failure recovery and cost budgeting
+- 📊 **Observability layer** — end-to-end tracing of LLM calls, per-pipeline cost dashboards
 
-<p align="center">
-  <img src="https://streak-stats.demolab.com/?user=UnethicalSeo&theme=tokyonight&hide_border=true" height="165" />
-</p>
+> 🔒 Most of my work lives in **private repositories** (production systems, client projects).
+> Public GitHub activity doesn't reflect the scope — happy to walk through code on call.
 
 ---
 
