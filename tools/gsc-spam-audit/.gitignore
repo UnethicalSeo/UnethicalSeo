@@ -1,0 +1,8 @@
+# Secrets — never commit these.
+client_secret*.json
+token.json
+
+# Reports.
+gsc-audit-*.csv
+gsc-audit-*.json
+__pycache__/
