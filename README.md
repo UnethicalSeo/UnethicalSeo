@@ -3,7 +3,7 @@
 </h1>
 
 <p align="center">
-  <b>AI Engineer</b> &nbsp;•&nbsp; <b>LLM Systems Architect</b> &nbsp;•&nbsp; <b>SEO Automation Expert</b>
+  <b>AI Products guy</b> &nbsp;•&nbsp; <b>LLM Systems Architect</b> &nbsp;•&nbsp; <b>SEO Automation Expert</b>
 </p>
 
 <p align="center">
